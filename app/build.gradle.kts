@@ -33,6 +33,14 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    //View Binding
+    buildFeatures{
+        viewBinding = true
+    }
+
+
+
 }
 
 dependencies {
@@ -45,14 +53,25 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-// navigation component
+    // navigation component
     val nav_version = "2.7.6"
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
 
+
+
     // gif
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
+
+    //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+
+    //Glide
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
+
 
 
 }
