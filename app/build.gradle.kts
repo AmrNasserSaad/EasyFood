@@ -73,5 +73,12 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.12.0")
 
 
+   //videoModel mvvm
+    val lifecycle_version = "2.4.0"
+    //viewmodel
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+    implementation ("androidx.lifecycle:lifecycle-extensions:2.1.0")
+
+
 
 }

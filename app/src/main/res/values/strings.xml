@@ -4,4 +4,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="what_would_you_like_to_eat">What would you like to eat</string>
     <string name="home">Home</string>
+    <string name="submit">submit\n</string>
+    <string name="category">Category :</string>
 </resources>
