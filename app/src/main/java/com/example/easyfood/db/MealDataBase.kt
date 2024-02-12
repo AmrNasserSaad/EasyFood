@@ -23,7 +23,7 @@ abstract class MealDataBase : RoomDatabase() {
 
             if (INSTANCE == null) {
                 INSTANCE = Room.databaseBuilder(context, MealDataBase::class.java, "meal.db")
-                    .fallbackToDestructiveMigration().build()
+                    .allowMainThreadQueries().build()
             }
             return INSTANCE as MealDataBase
         }

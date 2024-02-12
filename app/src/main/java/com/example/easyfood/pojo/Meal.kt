@@ -9,7 +9,6 @@ import com.google.gson.annotations.SerializedName
 data class Meal(
     @SerializedName("dateModified")
     val dateModified: Any? ,
-    @SerializedName("idMeal")
     @PrimaryKey
     val idMeal:String,
     @SerializedName("strArea")
