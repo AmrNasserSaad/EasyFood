@@ -1,6 +1,5 @@
 package com.example.easyfood.adapters
 
-import android.opengl.GLDebugHelper
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
@@ -11,7 +10,7 @@ import com.bumptech.glide.Glide
 import com.example.easyfood.databinding.MealItemBinding
 import com.example.easyfood.pojo.Meal
 
-class FavoritesMealsAdapter :RecyclerView.Adapter<FavoritesMealsAdapter.FavoritesMealsAdapterViewHolder> (){
+class MealsAdapter :RecyclerView.Adapter<MealsAdapter.FavoritesMealsAdapterViewHolder> (){
 
     inner class FavoritesMealsAdapterViewHolder( val binding:MealItemBinding) : ViewHolder(binding.root)
 
