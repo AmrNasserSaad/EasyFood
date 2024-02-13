@@ -25,14 +25,14 @@ class HomeViewModel(
 ): ViewModel(){
 
     var randomMealLiveData = MutableLiveData<Meal>()
-
     var popularItemsLiveData = MutableLiveData<List<MealsByCategory>>()
-
     var categoriesLiveData = MutableLiveData<List<Category>>()
-
-    var  favoritesMealsLiveData = mealDataBase.MealDao().getAllMeals()
-
+    private var  favoritesMealsLiveData = mealDataBase.MealDao().getAllMeals()
     var searchMealsLiveData = MutableLiveData<List<Meal>>()
+
+    init {
+        getRandomMeal()
+    }
 
     fun getRandomMeal(){
         RetrofitInstance.api.getRandomMeal().enqueue(object : Callback<MealList> {

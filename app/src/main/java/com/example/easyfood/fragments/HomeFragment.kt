@@ -63,7 +63,7 @@ class HomeFragment : Fragment() {
 
 
 
-        viewModel.getRandomMeal()
+       // viewModel.getRandomMeal()
         observeRandomMeal()
         onRandomMealClick()
 
