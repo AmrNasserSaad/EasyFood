@@ -18,6 +18,7 @@ import com.example.easyfood.activities.MealActivity
 import com.example.easyfood.adapters.CategoriesAdapter
 import com.example.easyfood.adapters.MostPopularAdapter
 import com.example.easyfood.databinding.FragmentHomeBinding
+import com.example.easyfood.fragments.bottomsheet.MealBottomSheetFragment
 import com.example.easyfood.pojo.MealsByCategory
 import com.example.easyfood.pojo.Meal
 import com.example.easyfood.viewModel.HomeViewModel
@@ -82,7 +83,17 @@ class HomeFragment : Fragment() {
 
         onSearchIconClick()
 
+        onPopularLongItemClick()
 
+
+    }
+
+    private fun onPopularLongItemClick() {
+        popularItemsAdapter.onLongItemClick = {
+            meal ->
+            val mealBottomSheetFragment = MealBottomSheetFragment.newInstance(meal.idMeal)
+            mealBottomSheetFragment.show(childFragmentManager , "Meal info ")
+        }
     }
 
     private fun onSearchIconClick() {

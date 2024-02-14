@@ -22,7 +22,8 @@
             android:fitsSystemWindows="true"
             app:contentScrim="@color/accent"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-            app:title="Meal name">
+            app:title="Meal name"
+            app:collapsedTitleTextColor="@color/white">
 
             <ImageView
                 android:id="@+id/img_meal_detail"
@@ -66,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="15dp"
-                    android:drawableLeft="@drawable/icon_component"
+                    android:drawableLeft="@drawable/icon_category"
                     android:drawablePadding="5dp"
                     android:text="Category : "
                     android:textColor="@color/g_black"
@@ -79,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="15dp"
-                    android:drawableLeft="@drawable/baseline_add_location_alt_24"
+                    android:drawableLeft="@drawable/location_icon"
                     android:drawablePadding="5dp"
                     android:text="Area : "
                     android:textColor="@color/g_black"
@@ -139,7 +140,7 @@
         android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="30dp"
+        android:layout_marginRight="12dp"
         android:baselineAlignBottom="false"
         android:clickable="true"
         android:src="@drawable/icon_heart"

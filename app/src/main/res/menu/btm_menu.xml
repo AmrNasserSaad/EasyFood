@@ -11,7 +11,7 @@
         android:id="@+id/favoritesFragment"/>
 
     <item android:title="Category"
-    android:icon="@drawable/icon_component"
+    android:icon="@drawable/icon_category"
         android:id="@+id/categoriesFragment"/>
 
 </menu>
