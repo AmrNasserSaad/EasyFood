@@ -1,31 +1,27 @@
 
+🌟 I am thrilled to share with you the EasyFood App.
 
-https://github.com/AmrNasserSaad/EasyFood/assets/105106529/dd3a7a16-322c-4798-97f8-b84235d89f81
+EasyFood is an app that makes making food easier and gives you full information about the selected meal including instructions on how to make that meal provided by a video. 
 
+💡 Libraries and technologies used --»
 
-🌟 I am thrilled to share with you EasyFood App .
+- Navigation component: one activity contains multiple fragments instead of creating multiple activities.
 
-EasyFood is an app that makes making food easier and gives you full information about the selected meal including instructions of how to make that meal provided by a video. 
+- Retrofit: making HTTP connection with the rest API and converting meal JSON file to Kotlin/Java object. 
 
-💡Libraries and technologies used --»
+- Room: Save meals in the local database.
 
-- Navigation component : one activity contains multiple fragments instead of creating multiple activites.
+- MVVM & Live Data: Separate logic code from views and save the state in case the screen configuration changes.
 
-- Retrofit : making HTTP connection with the rest API and converting meal json file to Kotlin/Java object. 
+- Coroutines: do some code in the background.
 
-- Room : Save meals in the local database.
+- view binding: instead of inflating views manually view binding will take care of that.
 
-- MVVM & Live Data : Separate logic code from views and save the state in case the screen configuration changes.
-
-- Coroutines : do some code in the background.
-
-- view binding : instead of inflating views manually view binding will take care of that.
-
-- Glide : Catch images and load them in imageView.
+- Glide: Catch images and load them in imageView.
 
 
-Thanks Mohammad Nawas for your efforts on this amazing playlist ❤️
-I'll leave this amazing playlist in the comments ( https://youtube.com/playlist? ) .
+Thanks, Mohammad Nawas for your efforts on this amazing playlist ❤️
+I'll leave this amazing playlist in the comments ( https://youtube.com/playlist? ). 
 
-hashtag#android hashtag#developers hashtag#appdevelopment 
-hashtag#androiddevelopment hashtag#application 
+<iframe width="560" height="315" src="C:\Users\Elsawah\Downloads\Video\EasyFood App" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
