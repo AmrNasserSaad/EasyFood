@@ -26,6 +26,7 @@ EasyFood is an app that makes making food easier and gives you full information 
 - Glide: Catch images and load them in imageView.
 
 
+
 Thanks, Mohammad Nawas for your efforts on this amazing playlist ❤️
 I'll leave this amazing playlist in the comments ( https://youtube.com/playlist? ). 
 
