@@ -5,7 +5,8 @@ https://github.com/AmrNasserSaad/EasyFood/assets/105106529/cbbaa215-a9ae-4edc-9c
 
 
 
-🌟 I am thrilled to share with you the EasyFood App.
+🌟 I am thrilled to share with you the EasyFood App. 
+
 
 EasyFood is an app that makes making food easier and gives you full information about the selected meal including instructions on how to make that meal provided by a video. 
 
